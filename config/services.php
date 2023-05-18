@@ -31,4 +31,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'classicms' => [
+        'client_id' => env('CLASSICMS_CLIENT_ID'),
+        'client_secret' => env('CLASSICMS_CLIENT_SECRET'),
+    ],
+
 ];
